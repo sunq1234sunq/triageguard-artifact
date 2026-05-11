@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data and results
+*.csv
+*.json
+*.xlsx
+*.pkl
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - exclude script folders
+1_fllter/
+2_json/
+3_fig/
+4_feature/
+5_fig2/
+6_modol/
+7_gnn/
+8_threshold/
+10_tongjihunxiao/
+cnn_threshold_plots/
+sfc_ot_threshold_plots/
+热力图/
+
+# Keep Feature and traintest folders
+!Feature/
+!traintest/
+
+# But exclude data files in Feature/res
+Feature/res/*.xlsx
+Feature/res/*.pkl
+
+# Keep only documentation and images
+!images/
+!*.md
+
+# Exclude duplicate image files in root
+apk.pdf
+apk.png
+apk.svg
+model_vs_ot_scatter.svg
+appendix1.md
+appendix.md
